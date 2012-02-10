@@ -1,5 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
+body {
+	font: 18px Verdana, Geneva, sans-serif;
+}
+h1 {
+	margin-left: 3em;
+}
+figcaption {
+	margin-left: 5em;
+}
 .buttons {
 
 	width: 700px;
