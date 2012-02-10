@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.buttons {
+	border: solid 3px #033;
+	
+	width: 700px;
+	height: 100px;
+	
+	list-style-type: none;
+	
+	margin: 0 auto;
+	padding: 1em;
+	
+}
+
+.tabs {
+	width: 700px;
+	height: 600px;
+	
+	margin: 0 auto;
+	padding: 1em;	
+	
+	position: absolute;
+}
+#tabs1 {
+	width: 650px;
+	height: 500px;
+	
+	position: absolute;
+	
+}
+#tabs2 {
+	width: 650px;
+	height: 500px;
+
+	position: absolute;
+}
+#tabs3 {
+	width: 650px;
+	height: 500px;
+	
+	position: absolute;
+}
+#tabs4 {
+	width: 650px;
+	height: 500px;
+
+	position: absolute;
+}
