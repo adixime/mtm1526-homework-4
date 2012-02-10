@@ -9,6 +9,7 @@ $(document).ready(function () {
 		
 		$('.tabs div').hide();
 		
+		$(tabToShow).('a').css('background-color', '#9F9')
 		$(tabToShow).slideDown("Slow");
 			
 	});

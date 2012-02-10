@@ -5,9 +5,10 @@ body {
 	padding: 1em;
 }
 
+
+
 .buttons {
-	border: solid 3px #033;
-	
+
 	width: 700px;
 	height: 100px;
 	
@@ -16,6 +17,37 @@ body {
 	margin: 0 auto;
 	padding: 1em;
 	
+}
+li {
+	display: inline-block;
+}
+
+nav ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+	display: block;
+	margin: 0;
+	padding: 0.75em 30px;
+	zoom: 1;
+
+	color: #0C9;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	background-color: #099;
+	color: #FFF;
 }
 
 .tabs {
